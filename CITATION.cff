@@ -4,7 +4,7 @@ authors:
   - family-names: "Vinagre-Izquierdo"
     given-names: "Celia"
     orcid: "https://orcid.org/0000-0002-6750-7477"
-title: "SNP Calling Pipeline for GBS Paired-End (PE) Data"
+title: "SNP Calling Pipeline for GBS Paired-End (PE) Data using TASSEL"
 version: 1.0.0
 date-released: 2025-02-05
 url: "https://github.com/Celia-Vinagre-Izquierdo/MS_wintering_quails"
