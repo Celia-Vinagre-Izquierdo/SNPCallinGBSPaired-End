@@ -1,4 +1,4 @@
-# SNP Calling for GBS paired-end data using TASSEL
+# SNP Calling for GBS paired-end (PE) data using TASSEL
 
 Scripts for SNPCalling GBS paired-end (PE) data and karyotype classification.
 
@@ -8,7 +8,7 @@ Scripts for SNPCalling GBS paired-end (PE) data and karyotype classification.
 - [Contact](#contact)
 
 ## Introduction
-This project contains scripts for processing GBS paired-end data and classifying karyotypes for quails. 
+This project contains scripts for processing GBS paired-end data and classifying karyotypes for quails. This script combines bash and R programming
 
 ## Dependencies
 The following programs are required to run the scripts in this repository:
@@ -19,6 +19,8 @@ The following programs are required to run the scripts in this repository:
 - [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/): For quality control of sequence data.
 - [bbmerge.sh](https://jgi.doe.gov/data-and-tools/bbtools/bb-tools-user-guide/bbmerge-guide/): For merging paired-end reads for GBS data.
 - [cutadapt](https://cutadapt.readthedocs.io/en/stable/): For trimming adapters and selecting reads longer than 64bp.
+
+After this you need to use the fake_barcode.R script and then continue in bash. 
 
 ### Once you have your sequences ready for using TASSEL to create a VCF file
 - [TASSEL](https://www.maizegenetics.net/tassel): For GBS analysis.
