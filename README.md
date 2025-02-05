@@ -1,4 +1,4 @@
-# MS_wintering_quails
+# SNP Calling for GBS paired-end data using TASSEL
 
 Scripts for SNPCalling GBS paired-end (PE) data and karyotype classification.
 
