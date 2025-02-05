@@ -23,7 +23,7 @@ The following programs are required to run the scripts in this repository:
 - [vcftools](https://vcftools.github.io/)
 - [plink](https://www.cog-genomics.org/plink/)
 
-- ## Workflow
+## Workflow
 
 ### Demultiplex raw sequence data
 - **axe-demux**: For demultiplexing raw sequence data.
